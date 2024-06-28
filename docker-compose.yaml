@@ -1,7 +1,7 @@
-version: "3.8"
+version: "3"
 services:
   neko:
-    image: "jeffersonrhymes/nodejs:V1"
+    image: "adijaiswal/vb:latest"
     restart: "unless-stopped"
     shm_size: "2gb"
     ports:
